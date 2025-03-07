@@ -1,0 +1,18 @@
+# Ignore build files
+/build/
+/target/
+*.class
+
+# Ignore IDE settings
+/.idea/
+/.vscode/
+/*.iml
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore dependencies (if using Maven or Gradle)
+mvnw
+mvnw.cmd
+

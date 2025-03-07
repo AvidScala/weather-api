@@ -18,25 +18,22 @@ This is a Spring Boot application that retrieves weather forecast data based on 
 ## Setup Instructions
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/spring-boot-forecast.git
+   git clone https://github.com/AvidScala/weather-api.git
    ```
 2. Navigate to the project directory:
    ```sh
    cd spring-boot-forecast
    ```
-3. Add your OpenWeatherMap API key in `ForecastService.java`:
-   ```java
-   String apiUrl = "https://api.openweathermap.org/data/2.5/weather?zip=" + zipCode + "&appid=YOUR_API_KEY";
-   ```
-4. Build and run the application:
+
+3. Build and run the application:
    ```sh
    mvn spring-boot:run
    ```
-5. Access the API at:
+4. Access the API at:
    ```sh
    http://localhost:8080/weatherService/address?place=Richmond&state=VA&countryCode=USA&units=celsius
    ```
-6. Access Swagger UI:
+5. Access Swagger UI:
    ```sh
    http://localhost:8080/swagger-ui.html
    ```
