@@ -1,0 +1,12 @@
+com/example/forecast/model/ForecastResponse.class
+com/example/forecast/model/GeocodingResponse.class
+com/example/forecast/model/Result.class
+com/example/forecast/config/SwaggerConfig.class
+com/example/forecast/config/CacheConfig.class
+com/example/forecast/config/WebFluxConfiguration.class
+com/example/forecast/exception/BadDataException.class
+com/example/forecast/exception/InternalServerErrorResponse.class
+com/example/forecast/model/DayForecast.class
+com/example/forecast/config/WeatherConfig.class
+com/example/forecast/controller/ForecastController.class
+com/example/forecast/config/WebClientConfig.class

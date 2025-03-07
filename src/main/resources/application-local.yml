@@ -1,0 +1,12 @@
+spring:
+  application:
+    main:
+     banner-mode: off
+    cache:
+      type: simple
+server:
+  port: 8080
+# Compare this snippet from src/main/resources/application.yml:
+weather-config:
+  geoApiUrl: https://geocoding-api.open-meteo.com/v1/search
+  weatherApiUrl: https://api.open-meteo.com/v1/forecast

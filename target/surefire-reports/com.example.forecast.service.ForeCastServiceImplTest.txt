@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: com.example.forecast.service.ForeCastServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.076 s <<< FAILURE! -- in com.example.forecast.service.ForeCastServiceImplTest
+com.example.forecast.service.ForeCastServiceImplTest.testGetCoordinates_LocationNotFound -- Time elapsed: 0.068 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "object" is null
+	at org.mockito.Mockito.spy(Mockito.java:2189)
+	at com.example.forecast.service.ForeCastServiceImplTest.testGetCoordinates_LocationNotFound(ForeCastServiceImplTest.java:96)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.example.forecast.service.ForeCastServiceImplTest.testGetWeatherForecast_ValidRequest -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "object" is null
+	at org.mockito.Mockito.spy(Mockito.java:2189)
+	at com.example.forecast.service.ForeCastServiceImplTest.testGetWeatherForecast_ValidRequest(ForeCastServiceImplTest.java:59)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+com.example.forecast.service.ForeCastServiceImplTest.testGetWeatherForecast_InvalidUnits -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.example.forecast.service.impl.ForecastServiceImpl.getWeatherForecast(String, String, String, String)" because "this.forecastService" is null
+	at com.example.forecast.service.ForeCastServiceImplTest.testGetWeatherForecast_InvalidUnits(ForeCastServiceImplTest.java:81)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
